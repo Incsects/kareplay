@@ -1,0 +1,16 @@
+.fixed-bottom {
+  position: relative !important;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 50px;
+  z-index: $zindex-fixed;
+}
+.laex {
+    max-width: 100% !important;
+}
+.footer-menu ul{
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}

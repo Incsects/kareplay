@@ -1,0 +1,188 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.url {
+    color: white;
+    text-decoration: none;
+}
+.url:hover {
+    transition: 0.5s;
+}
+ul {
+	list-style-type: none;
+	margin: 17px 0;
+	padding: 0px;
+}
+
+#kutu {
+	width: auto;
+	height: 125px;
+	float: left;
+}
+
+ul li {
+	float: left;
+	font-family: tahoma;
+	font-size: 12px;
+	margin-bottom: 8px;
+	clear: left;
+	color: #949798;
+}
+
+#kutu:last-child li {
+	float: left;
+	clear: none;
+	margin-right: 10px;
+}
+@keyframes slideUp{
+    from{
+      opacity:0;
+      bottom: -200px;
+    }
+    to{
+      opacity:1;
+      bottom:0;
+    }
+  }
+
+  .kutu{
+    z-index: 1;
+    width: 100%;
+    padding: 33px 0px;
+    background-color: #3363ff;
+  }
+
+  .fontlu{
+      font-family: Arial;
+      color: #6D96F1;
+  }
+
+  .renk{
+      background-color: #3363ff!important;
+  }
+  .btn {
+      background-color: #3363ff!important;
+  }
+
+  .btn:hover {
+      transition: 0.9s;
+    background-color: #0939D2!important;
+  }
+
+  #butontext {
+      color: white;
+  }
+
+  footer{
+    position: absolute;
+    margin-top: 45px;
+    /* bottom: 0; */
+    left: 0;
+    right: 0;
+    background: #3363ff;
+    height: auto;
+    width: 100%;
+
+    padding-top: 40px;
+    color: #fff;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: white;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+    border: 1.1px solid white;
+    padding: 5px;
+
+    border-radius: 50%;
+
+}
+.socials a i{
+    font-size: 1.1rem;
+    width: 20px;
+
+
+    transition: color .4s ease;
+
+}
+.socials a:hover i{
+    color: #000;
+}
+
+.footer-bottom{
+    background: #3363ff;
+    width: 100%;
+    padding: 20px;
+padding-bottom: 30px;
+    text-align: center;
+}
+.footer-bottom p{
+float: left;
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom p a{
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+.footer-menu{
+  float: right;
+
+}
+.footer-menu ul{
+  display: flex;
+}
+.footer-menu ul li{
+padding-right: 10px;
+display: block;
+}
+.footer-menu ul li a{
+  color: white;
+  text-decoration: none;
+}
+.footer-menu ul li a:hover{
+  color: blue;
+  transition: 0.5s;
+}
+
+  @import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+  @import url('https://fonts.googleapis.com/css2?family=Bungee&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bungee&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Oswald&display=swap');
+  
